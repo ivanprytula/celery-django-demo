@@ -1,12 +1,15 @@
 <!DOCTYPE html>
-<html>
-<head lang="en">
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <title>test</title>
 </head>
 <body>
     <h1>{{ post.title }}</h1>
+    <h2>Viewed {{ post.view_count }} times.</h2>
+
     <p>{{ post.content }}</p>
     <p>Published by {{ post.author.full_name }} on {{ post.created }}</p>
+
 </body>
 </html>

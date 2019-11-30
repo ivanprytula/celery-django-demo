@@ -1,5 +1,12 @@
 Django==2.2.7
 
-pylint-django==2.0.12
+# dev dependencies
+pipdeptree==0.13.2
 
+# Linters
+pylint==2.4.4
+pylint-django==2.0.13
+
+# Async jobs
 Celery==4.3.0
+redis==3.3.11
