@@ -1,4 +1,4 @@
-Django==2.2.7
+Django==3.0
 
 # dev dependencies
 pipdeptree==0.13.2
