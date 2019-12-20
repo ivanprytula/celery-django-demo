@@ -1,4 +1,4 @@
-Django==3.0
+Django==3.0.1
 
 # dev dependencies
 pipdeptree==0.13.2
@@ -8,5 +8,5 @@ pylint==2.4.4
 pylint-django==2.0.13
 
 # Async jobs
-Celery==4.3.0
+Celery==4.4.0
 redis==3.3.11
